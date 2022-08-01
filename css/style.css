@@ -6153,10 +6153,6 @@ body {
 .benefit .list-group {
   --bs-list-group-bg: none !important;
 }
-.pricing-section {
-  margin-top: -15vh;
-}
-
 .pricing-section .box {
   background-color: #dbdffd;
   border-radius: 5px;
