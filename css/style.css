@@ -11,7 +11,7 @@
  01. =whatsapp
  -------------------------------- */
 .fa-whatsapp:before {
-  color: var(--WHITE);
+  color: #fff;
 }
 #whatsapp-chat {
   position: fixed;
@@ -43,7 +43,7 @@ a.blantershow-chat {
 a.blantershow-chat i {
   transform: scale(1.2);
   margin: 0 10px 0 0;
-  color: var(--white);
+  color: #fff;
 }
 .header-chat {
   background: #23ab23;
@@ -52,7 +52,7 @@ a.blantershow-chat i {
 }
 .header-chat h3 {
   margin: 0 0 10px;
-  color: var(--WHITE);
+  color: #fff;
 }
 .header-chat p {
   font-size: 14px;
@@ -213,7 +213,7 @@ a.close-chat {
   width: 100%;
   z-index: 1001;
   display: flex;
-  background-color: var(--white);
+  background-color: #fff);
 }
 .page-loader.fade-out {
   opacity: 0;
@@ -223,7 +223,7 @@ a.close-chat {
   margin: auto;
   height: 32px;
   width: 32px;
-  border: 4px solid var(--main-color);
+  border: 4px solid var(--primary-color);
   position: relative;
   animation: loader 2s linear infinite;
 }
@@ -232,7 +232,7 @@ a.close-chat {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: var(--main-color);
+  background-color: var(--primary-color);
   left: 0;
   top: 0;
   animation: loaderIn 2s linear infinite;
