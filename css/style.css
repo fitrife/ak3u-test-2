@@ -1156,14 +1156,14 @@ a.close-chat {
   font-size: 0.6rem;
 }
 .btn-primary {
-  background-color: #111d5e !important;
+  background-color: #33aaf4 !important;
   border: none;
 }
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #a0a5bf !important;
-  color: #111d5e;
+  background-color: #e1f6fb !important;
+  color: #2497da;
 }
 .btn-info {
   background-color: #1761d9 !important;
@@ -1299,13 +1299,13 @@ a.close-chat {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   color: #fff;
-  -webkit-box-shadow: 0 0 0 8px rgba(6, 106, 201, 0.4);
-  box-shadow: 0 0 0 8px rgba(17, 29, 94, 0.4);
-  background-color: #111d5e;
+  -webkit-box-shadow: 0 0 0 8px rgba(51, 170, 244, 0.4);
+  box-shadow: 0 0 0 8px rgba(51, 170, 244, 0.4);
+  background-color: #33aaf4;
 }
 .btn-primary-shadow:hover {
-  color: #111d5e;
-  background-color: #a0a5bf;
+  color: #33aaf4;
+  background-color: #e1f6fb;
 }
 .btn-check:focus + .btn-primary-shadow,
 .btn-primary-shadow:focus {
@@ -2025,8 +2025,8 @@ a.close-chat {
 }
 
 .nav-tabs .nav-link {
-  color: #111d5e;
-  background-color: #a0a5bf;
+  color: #33aaf4;
+  background-color: #e1f6fb;
   text-transform: capitalize;
   padding: 5px 12px;
   margin: 0 5px 10px;
@@ -2037,7 +2037,7 @@ a.close-chat {
   border-color: #fff;
 }
 .nav-tabs .nav-link.active {
-  background-color: var(--primary-color);
+  background-color: #33aaf4;
   border-color: transparent;
   color: #fff;
 }
@@ -3750,13 +3750,14 @@ section {
   }
 }
 .table-success {
-  background-color: #dbdffc !important;
+  background-color: #33aaf4 !important;
+  color: #fff;
 }
 .table-border-color {
   border-color: #dde0e3;
 }
 .bg-primary {
-  background-color: #111d5e !important;
+  background-color: #197cbe !important;
 }
 .bg-danger {
   background-color: #c70039 !important;
@@ -3769,6 +3770,9 @@ section {
 }
 .bg-success {
   background-color: #d0efb5 !important;
+}
+.bg-light {
+  background-color: #f4fcfc !important;
 }
 .bg-grad {
   background: -webkit-gradient(
@@ -6363,8 +6367,7 @@ body {
   display: block;
 }
 .banner span {
-  text-decoration: underline;
-  text-decoration-color: var(--quartenary-color);
+  color: #33aaf4;
 }
 .banner .banner-title {
   font-family: "DM Serif Display", sans-serif !important;
@@ -6387,7 +6390,7 @@ body {
   --bs-list-group-bg: none !important;
 }
 .pricing-section .box {
-  background-color: #dbdffd;
+  background-color: #e1f6fb;
   border-radius: 5px;
   box-shadow: var(--shadow);
   padding: 30px;
@@ -6412,24 +6415,24 @@ body {
 .pricing-section .item .discount {
   font-size: 20px;
   font-weight: 700;
-  color: #242f9b;
+  color: #33aaf4;
 }
 .pricing-section .sticker {
   padding: 0.25rem 0.5rem;
   display: inline-block;
   color: #fff;
-  background-color: #242f9b;
+  background-color: #33aaf4;
   margin-top: -30px;
   position: absolute;
   text-align: center;
   transform: translate(-50%, -50%);
 }
 .pricing-section .best {
-  border: 2px solid #242f9b;
+  border: 2px solid #33aaf4;
 }
 .pricing-section .badge {
   font-size: 12px;
-  background-color: #242f9b;
+  background-color: #33aaf4;
 }
 .pricing-section .price-title {
   border-radius: 5px;
