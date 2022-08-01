@@ -213,7 +213,7 @@ a.close-chat {
   width: 100%;
   z-index: 1001;
   display: flex;
-  background-color: #fff);
+  background-color: #fff;
 }
 .page-loader.fade-out {
   opacity: 0;
