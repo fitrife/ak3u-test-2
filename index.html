@@ -57,6 +57,12 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- page loader start -->
+    <div class="page-loader js-page-loader">
+      <div></div>
+    </div>
+    <!-- page loader end -->
+    
     <div class="fixed-top top-0 bg-warning text-center p-2">
       <div class="container">
         <span class="notification-text fw-bold text-white"
@@ -95,7 +101,7 @@
 
         <!-- Collapse -->
         <div
-          class="collapse navbar-collapse z-index-3 text-dark"
+          class="collapse navbar-collapse z-index-99 text-dark"
           id="navbarSupportedContent"
         >
           <!-- Navigation -->
@@ -104,7 +110,7 @@
               <a class="nav-link" href="#schedule"> Jadwal </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#price"> Harga </a>
+              <a class="nav-link" href="#benefit"> Benefit </a>
             </li>
           </ul>
 
@@ -116,7 +122,7 @@
           <!-- Navigation -->
           <ul class="navbar-nav justify-content-start w-100">
             <li class="nav-item">
-              <a class="nav-link" href="#benefit"> Benefit </a>
+              <a class="nav-link" href="#price"> Harga </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#register"> Registrasi </a>
@@ -566,7 +572,7 @@
                         <!-- Left content START -->
             <div class="col-lg-6 m-auto d-flex justify-content-center align-items-center">
               <img
-              src="images/background.jpg"
+              src="images/benefit.png"
               class="card-img-top"
               alt="course image"
               style="width: 400px; border: 10px solid #fff;"
@@ -1118,13 +1124,13 @@
               <button type="reset" class="btn btn-danger">Reset</button>
               <button
                 type="submit"
-                class="btn btn-info btn-send"
+                class="btn btn-primary btn-send"
                 name="send"
               >
                 Kirim
               </button>
               <button
-                class="btn btn-info btn-loading d-none"
+                class="btn btn-primary btn-loading d-none"
                 type="button"
                 disabled
               >
@@ -1352,13 +1358,13 @@
               <button type="reset" class="btn btn-danger">Reset</button>
               <button
                 type="submit"
-                class="btn btn-info btn-send-banner"
+                class="btn btn-primary btn-send-banner"
                 name="send"
               >
                 Kirim
               </button>
               <button
-                class="btn btn-info btn-loading-banner d-none"
+                class="btn btn-primary btn-loading-banner d-none"
                 type="button"
                 disabled
               >
@@ -1672,13 +1678,13 @@
               <button type="reset" class="btn btn-danger">Reset</button>
               <button
                 type="submit"
-                class="btn btn-info btn-send-download"
+                class="btn btn-primary btn-send-download"
                 name="send"
               >
                 Kirim
               </button>
               <button
-                class="btn btn-info btn-loading-download d-none"
+                class="btn btn-primary btn-loading-download d-none"
                 type="button"
                 disabled
               >
@@ -1695,9 +1701,56 @@
       </div>
     </div>
     <!-- form download end -->
+
+    <!-- whatsapp start -->
+    <div id="whatsapp-chat" class="hide">
+      <div class="header-chat">
+        <div class="head-home">
+          <h3>Halo!</h3>
+          <p>
+            Apabila kamu punya pertanyaan, silahkan chat admin di bawah ini.
+          </p>
+        </div>
+        <div class="get-new hide">
+          <div id="get-label"></div>
+          <div id="get-nama"></div>
+        </div>
+      </div>
+      <div class="home-chat">
+        <!-- Info Contact Start -->
+        <a class="informasi" href="javascript:void" title="Chat Whatsapp">
+          <div class="info-avatar">
+            <img src="images/avatar.png"/>
+          </div>
+          <div class="info-chat">
+            <span class="chat-label">Admin</span>
+            <span class="chat-nama">Rifyal</span>
+          </div>
+          <span class="my-number">+6282119654575</span>
+        </a>
+        <!-- Info Contact End -->
+        <!-- <div class='blanter-msg'>Call us to <b>+62123456789</b> from <i>0:00hs a 24:00hs</i></div> -->
+      </div>
+      <div class="start-chat hide">
+        <div class="first-msg">
+          <span>Halo! Ada yang bisa kami bantu ?</span>
+        </div>
+        <div class="blanter-msg">
+          <textarea id="chat-input" placeholder="Tulis pertanyaanmu disini" maxlength="120" row="1"></textarea>
+          <a href="javascript:void;" id="send-it">Kirim</a>
+        </div>
+      </div>
+      <div id="get-number"></div>
+      <a class="close-chat" href="javascript:void">×</a>
+    </div>
+    <a class="blantershow-chat" href="javascript:void" title="Show Chat">
+      <i class="fab fa-whatsapp"></i>Chat Dengan Admin
+    </a>
+    <!-- whatsapp end -->
     <!-- Form End -->
 
     <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
