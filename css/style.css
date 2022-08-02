@@ -1180,12 +1180,12 @@ a.close-chat {
   background-color: #f0ba3e !important;
 }
 .btn-success {
-  background-color: #0f9b2d !important;
+  background-color: #25ae89 !important;
 }
 .btn-success:hover {
-  background-color: #8afa8f !important;
-  color: #0f9b2d;
-  border: 1px solid #0f9b2d;
+  background-color: #f7f6f6 !important;
+  color: #25ae89;
+  border: 1px solid #25ae89;
 }
 .btn-primary-soft {
   color: #066ac9;
@@ -3757,19 +3757,19 @@ section {
   border-color: #dde0e3;
 }
 .bg-primary {
-  background-color: #197cbe !important;
+  background-color: #297cbe !important;
 }
 .bg-danger {
   background-color: #c70039 !important;
 }
 .bg-warning {
-  background-color: #f37121 !important;
+  background-color: #e9a335 !important;
 }
 .bg-info {
   background-color: #28abb9 !important;
 }
 .bg-success {
-  background-color: #d0efb5 !important;
+  background-color: #25ae89 !important;
 }
 .bg-light {
   background-color: #f4fcfc !important;
@@ -6367,7 +6367,7 @@ body {
   display: block;
 }
 .banner span {
-  color: #33aaf4;
+  color: #3faaf4;
 }
 .banner .banner-title {
   font-family: "DM Serif Display", sans-serif !important;
@@ -6421,18 +6421,18 @@ body {
   padding: 0.25rem 0.5rem;
   display: inline-block;
   color: #fff;
-  background-color: #33aaf4;
+  background-color: #297cbe;
   margin-top: -30px;
   position: absolute;
   text-align: center;
   transform: translate(-50%, -50%);
 }
 .pricing-section .best {
-  border: 2px solid #33aaf4;
+  border: 2px solid #297cbe;
 }
 .pricing-section .badge {
   font-size: 12px;
-  background-color: #33aaf4;
+  background-color: #297cbe;
 }
 .pricing-section .price-title {
   border-radius: 5px;
