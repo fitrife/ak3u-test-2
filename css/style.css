@@ -3543,109 +3543,6 @@ a.close-chat {
   width: 100%;
 }
 
-.pagination .page-item {
-  margin-bottom: 5px;
-  float: left;
-}
-
-.pagination-primary-soft {
-  border: none;
-  padding: 4px;
-  border-radius: 0.325rem;
-}
-.pagination-primary-soft .page-item {
-  margin: 4px;
-}
-.pagination-primary-soft .page-link {
-  border: transparent;
-  border-radius: 0.325rem !important;
-  color: #066ac9;
-  background-color: rgba(6, 106, 201, 0.1);
-}
-
-.pagination-primary-soft .page-link:hover {
-  z-index: 2;
-  color: #fff;
-  background-color: #066ac9;
-  border-color: #066ac9;
-}
-
-.progress {
-  position: relative;
-  overflow-x: visible;
-  overflow-y: visible;
-}
-.progress .progress-bar {
-  position: relative;
-  overflow: visible;
-  border-radius: 0.325rem;
-}
-.progress .progress-percent {
-  color: #747579;
-  font-weight: 500;
-  line-height: 24px;
-  position: absolute;
-  right: 0;
-  top: -24px;
-  font-size: 12px;
-}
-.progress .progress-percent-simple {
-  position: absolute;
-  right: 0;
-  top: -20px;
-  font-size: 14px;
-}
-
-.progress.progress-percent-bg .progress-percent {
-  background: #24292d;
-  padding: 2px 5px;
-  border-radius: 2px;
-  color: #fff;
-  line-height: 16px;
-  position: absolute;
-  right: 0;
-  top: -25px;
-  font-size: 10px;
-}
-.progress.progress-percent-bg .progress-percent:before {
-  border-top-color: #24292d;
-  border-width: 5px;
-  left: 50%;
-  margin-left: -5px;
-}
-.progress.progress-percent-bg .progress-percent:after,
-.progress.progress-percent-bg .progress-percent:before {
-  top: 100%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-.progress.progress-percent-bg .progress-percent:after {
-  border-top-color: #24292d;
-  border-width: 4px;
-  left: 50%;
-  margin-left: -4px;
-}
-
-.progress.progress-xs {
-  height: 3px;
-}
-.progress.progress-sm {
-  height: 5px;
-}
-.progress.progress-md {
-  height: 10px;
-}
-.progress.progress-lg {
-  height: 16px;
-}
-.progress.progress-xl {
-  height: 20px;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3720,8 +3617,8 @@ section {
 
 @media (max-width: 767.98px) {
   section {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
   }
 }
 .table.table-dark-gray thead {
@@ -6350,7 +6247,7 @@ body {
   border: 0;
 }
 .video-modal i {
-  color: #242f9b;
+  color: #33aaf4;
 }
 .subtitle {
   font-family: "DM Serif Display", sans-serif !important;
@@ -6386,6 +6283,72 @@ body {
   margin-bottom: 28vh;
   z-index: auto;
 }
+.schedule .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+.schedule .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.schedule .tab-pane {
+  transition: ease-in-out 0.2s;
+}
+
+.schedule .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+.schedule .schedule-item:hover {
+  background-color: #fff;
+}
+
+.schedule .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+.schedule .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.schedule .schedule-item .speaker img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+.schedule .schedule-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.schedule .schedule-item h4 span {
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+.schedule .schedule-item p {
+  color: #152b79;
+  margin-bottom: 0;
+}
+.schedule .schedule-item .city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .benefit .list-group {
   --bs-list-group-bg: none !important;
 }

@@ -417,132 +417,149 @@
       <!-- City End -->
 
       <!-- Schedule Start -->
-      <section class="schedule" id="schedule">
-        <div class="container">
-          <!-- Title -->
-          <div class="row mb-4">
-            <div class="col-12 text-center">
-              <h2 class="fs-1 fw-bold subtitle">
-                <span class="text-center z-index-9"
-                  >Jadwal Training Terdekat
-                </span>
-              </h2>
+      <section id="schedule" class="schedule">
+        <div class="continer">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h2 class="fs-1 fw-bold subtitle">
+              Jadwal Training Terdekat 
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <ul
+            class="nav nav-tabs"
+            role="tablist"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#online"
+                role="tab"
+                data-bs-toggle="tab"
+                >Online</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#offline"
+                role="tab"
+                data-bs-toggle="tab"
+                >Offline</a
+              >
+            </li>
+
+          <div
+            class="tab-content row justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <!-- Schedule Online -->
+            <div
+              role="tabpanel"
+              class="col-lg-9 tab-pane fade show active"
+              id="online"
+            >
+              <div class="row schedule-item">
+                <div class="col-md-12 text-center">
+                  <h4>Agustus Minggu Ke-1</h4>
+                  <p>01 Agustus 2022 - 14 Agustus 2022</p>
+                </div>
+              </div>
+              <div class="row schedule-item">
+                <div class="col-md-12 text-center">
+                  <h4>Agustus Minggu Ke-2</h4>
+                  <p>08 Agustus 2022 - 21 Agustus 2022</p>
+                </div>
+              </div>
+              <div class="row schedule-item">
+                <div class="col-md-12 text-center">
+                  <h4>Agustus Minggu Ke-3</h4>
+                  <p>15 Agustus 2020 - 28 Agustus 2022</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-12">
-              <nav>
-                <div
-                  class="nav nav-tabs border-0 justify-content-center mb-4"
-                  id="nav-tab"
-                  role="tablist"
-                >
-                  <button
-                    class="nav-link active"
-                    id="online-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#online"
-                    type="button"
-                    role="tab"
-                    aria-controls="online"
-                    aria-selected="false"
-                  >
-                    Online
-                  </button>
-                  <button
-                    class="nav-link"
-                    id="offline-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#offline"
-                    type="button"
-                    role="tab"
-                    aria-controls="offline"
-                    aria-selected="true"
-                  >
-                    Offline
-                </button>
-                </div>
-              </nav>
-              <div class="tab-content" id="nav-tabContent">
-                <div
-                  class="tab-pane fade show active"
-                  id="online"
-                  role="tabpanel"
-                  aria-labelledby="online-tab"
-                >
-                <div class="row justify-content-center align-items-center">
-                  <div class="col-lg-3 col-10 table-responsive-md">
-                    <table class="table text-center">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="table-success">Tanggal</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td >01/08/2022 - 14/08/2022</td>
-                        </tr>
-                        <tr>
-                          <td>08/08/2022 -21/08/2022</td>
-                        </tr>
-                        <tr>
-                          <td>15/08/2022 -28/08/2022</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="offline"
-                  role="tabpanel"
-                  aria-labelledby="offline-tab"
-                >
-                <div class="row justify-content-center">
-                  <div class="col-lg-6 col-md-6 col-12 table-responsive-md">
-                    <table
-                      class="table table-striped-rows text-center table-bordered text-white"
-                    >
-                      <thead>
-                        <tr>
-                          <th scope="col" class="table-success">Kota</th>
-                          <th scope="col" class="table-success">Tanggal</th>
-                        </tr>
-                      </thead>
-                      <tbody class="table-default">
-                        <tr>
-                          <td class="table-success">Medan</td>
-                          <td class="table-light">08/08/2022 - 22/08/2022</td>
-                        </tr>
-                        <tr>
-                          <td class="table-success">Surabaya</td>
-                          <td class="table-light">15/08/2022 - 29/08/2022</td>
-                        </tr>
-                        <tr>
-                          <td class="table-success">Jakarta</td>
-                          <td class="table-light">22/08/2022 - 03/09/2022</td>
-                        </tr>
-                        <tr>
-                          <td class="table-success">Padang</td>
-                          <td class="table-light">29/08/2022 - 10/09/2022</td>
-                        </tr>
-                        <tr>
-                          <td class="table-success">Makassar</td>
-                          <td class="table-light">05/09/2022 - 17/09/2022</td>
-                        </tr>
-                        <tr>
-                          <td class="table-success">Manado</td>
-                          <td class="table-light">12/09/2022 - 24/09/2022</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
+            <!-- End Schedule Online -->
+
+            <!-- Schdule Offline -->
+            <div role="tabpanel" class="col-lg-9 tab-pane fade" id="offline">
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Medan</div>
+                <div class="col-md-5">
+                  <h4>Agustus Minggu Ke-2</h4>
+                  <p>08 Agustus 2022 - 22 Agustus 2022</p>
                 </div>
               </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Surabaya</div>
+                <div class="col-md-5">
+                  <h4>Agustus Minggu Ke-3</h4>
+                  <p>15 Agustus 2022 - 29 Agustus 2022</p>
+                </div>
               </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Jakarta</div>
+                <div class="col-md-5">
+                  <h4>Agustus Minggu Ke-4</h4>
+                  <p>22 Agustus 2022 - 03 September 2022</p>
+                </div>
+              </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Padang</div>
+                <div class="col-md-5">
+                  <h4>Agustus Minggu Ke-5</h4>
+                  <p>29 Agustus 2022 - 10 September 2022</p>
+                </div>
+              </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Pekanbaru</div>
+                <div class="col-md-5">
+                  <h4>Agustus Minggu Ke-5</h4>
+                  <p>29 Agustus 2022 - 10 September 2022</p>
+                </div>
+              </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Makassar</div>
+                <div class="col-md-5">
+                  <h4>September Minggu Ke-1</h4>
+                  <p>05 September 2022 - 17 September 2022</p>
+                </div>
+              </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Cilegon</div>
+                <div class="col-md-5">
+                  <h4>September Minggu Ke-2</h4>
+                  <p>12 September 2022 - 24 September 2022</p>
+                </div>
+              </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Yogyakarta</div>
+                <div class="col-md-5">
+                  <h4>September Minggu Ke-3</h4>
+                  <p>19 September 2022 - 01 Oktober 2022</p>
+                </div>
+              </div>
+
+              <div class="row schedule-item text-center">
+                <div class="col-md-5 city">Depok</div>
+                <div class="col-md-5">
+                  <h4>September Minggu Ke-4</h4>
+                  <p>26 September 2022 - 10 Oktober 2022</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Schedule Offline -->
           </div>
+          </ul>
+        </div>
         </div>
       </section>
       <!-- Schedule End -->
@@ -1082,9 +1099,6 @@
                   required
                 >
                   <option selected disabled>-- Pilih Jadwal --</option>
-                  <option value="Batch 025 Online - 01 Agustus 2022">
-                    Batch 025 Online - 01 Agustus 2022
-                  </option>
                   <option value="Batch 026 Online - 08 Agustus 2022">
                     Batch 026 Online - 08 Agustus 2022
                   </option>
@@ -1106,11 +1120,20 @@
                   <option value="Padang Offline - 29 Agustus 2022">
                     Padang Offline - 29 Agustus 2022
                   </option>
+                  <option value="Pekanbaru Offline - 29 Agustus 2022">
+                    Pekanbaru Offline - 29 Agustus 2022
+                  </option>
                   <option value="Makassar Offline - 05 September 2022">
                     Makassar Offline - 05 September 2022
                   </option>
-                  <option value="Manado Offline - 12 September 2022">
-                    Manado Offline - 12 September 2022
+                  <option value="Cilegon Offline - 12 September 2022">
+                    Cilegon Offline - 12 September 2022
+                  </option>
+                  <option value="Yogyakarta Offline - 19 September 2022">
+                    Yogyakarta Offline - 19 September 2022
+                  </option>
+                  <option value="Depok Offline - 26 September 2022">
+                    Depok Offline - 26 September 2022
                   </option>
                   <option value="Buat Kelas Sendiri">Buat Kelas Sendiri</option>
                   <option value="Belum Menentukan Jadwal">
@@ -1316,9 +1339,6 @@
                   required
                 >
                   <option selected disabled>-- Pilih Jadwal --</option>
-                  <option value="Batch 025 Online - 01 Agustus 2022">
-                    Batch 025 Online - 01 Agustus 2022
-                  </option>
                   <option value="Batch 026 Online - 08 Agustus 2022">
                     Batch 026 Online - 08 Agustus 2022
                   </option>
@@ -1340,11 +1360,20 @@
                   <option value="Padang Offline - 29 Agustus 2022">
                     Padang Offline - 29 Agustus 2022
                   </option>
+                  <option value="Pekanbaru Offline - 29 Agustus 2022">
+                    Pekanbaru Offline - 29 Agustus 2022
+                  </option>
                   <option value="Makassar Offline - 05 September 2022">
                     Makassar Offline - 05 September 2022
                   </option>
-                  <option value="Manado Offline - 12 September 2022">
-                    Manado Offline - 12 September 2022
+                  <option value="Cilegon Offline - 12 September 2022">
+                    Cilegon Offline - 12 September 2022
+                  </option>
+                  <option value="Yogyakarta Offline - 19 September 2022">
+                    Yogyakarta Offline - 19 September 2022
+                  </option>
+                  <option value="Depok Offline - 26 September 2022">
+                    Depok Offline - 26 September 2022
                   </option>
                   <option value="Buat Kelas Sendiri">Buat Kelas Sendiri</option>
                   <option value="Belum Menentukan Jadwal">
@@ -1550,9 +1579,6 @@
                   required
                 >
                   <option selected disabled>-- Pilih Jadwal --</option>
-                  <option value="Batch 025 Online - 01 Agustus 2022">
-                    Batch 025 Online - 01 Agustus 2022
-                  </option>
                   <option value="Batch 026 Online - 08 Agustus 2022">
                     Batch 026 Online - 08 Agustus 2022
                   </option>
@@ -1574,11 +1600,20 @@
                   <option value="Padang Offline - 29 Agustus 2022">
                     Padang Offline - 29 Agustus 2022
                   </option>
+                  <option value="Pekanbaru Offline - 29 Agustus 2022">
+                    Pekanbaru Offline - 29 Agustus 2022
+                  </option>
                   <option value="Makassar Offline - 05 September 2022">
                     Makassar Offline - 05 September 2022
                   </option>
-                  <option value="Manado Offline - 12 September 2022">
-                    Manado Offline - 12 September 2022
+                  <option value="Cilegon Offline - 12 September 2022">
+                    Cilegon Offline - 12 September 2022
+                  </option>
+                  <option value="Yogyakarta Offline - 19 September 2022">
+                    Yogyakarta Offline - 19 September 2022
+                  </option>
+                  <option value="Depok Offline - 26 September 2022">
+                    Depok Offline - 26 September 2022
                   </option>
                   <option value="Buat Kelas Sendiri">Buat Kelas Sendiri</option>
                   <option value="Belum Menentukan Jadwal">
