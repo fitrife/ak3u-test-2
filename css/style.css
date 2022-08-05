@@ -223,7 +223,7 @@ a.close-chat {
   margin: auto;
   height: 32px;
   width: 32px;
-  border: 4px solid var(--primary-color);
+  border: 4px solid #33aaf4;
   position: relative;
   animation: loader 2s linear infinite;
 }
@@ -232,7 +232,7 @@ a.close-chat {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: #33aaf4;
   left: 0;
   top: 0;
   animation: loaderIn 2s linear infinite;
