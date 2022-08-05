@@ -6442,6 +6442,9 @@ body {
 .pricing-plan .pricing-body {
   padding: 0 30px;
 }
+footer {
+  background-color: #297cbe;
+}
 footer .nav-link {
   color: var(--neutral-color);
 }
