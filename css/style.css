@@ -6343,7 +6343,7 @@ body {
   color: #152b79;
   margin-bottom: 0;
 }
-.schedule .schedule-item .city {
+.schedule .schedule-item .location {
   display: flex;
   justify-content: center;
   align-items: center;
