@@ -1,34 +1,3 @@
-var slider = tns({
-  container: ".city-slider",
-  items: 6,
-  controls: false,
-  nav: false,
-  gutter: 20,
-  edgePadding: 20,
-  mouseDrag: true,
-  autoplay: true,
-  autoplayTimeOut: 4000,
-  autoplayButton: false,
-  autoplayButtonOutput: false,
-  responsive: {
-    0: {
-      items: 2,
-    },
-    576: {
-      items: 3,
-    },
-    768: {
-      items: 4,
-    },
-    992: {
-      items: 5,
-    },
-    1200: {
-      items: 6,
-    },
-  },
-});
-
 /* ----------------------------
       whatsapp
   ------------------------------- */
@@ -81,3 +50,24 @@ window.addEventListener("load", () => {
     document.querySelector(".js-page-loader").style.display = "none";
   }, 600);
 });
+
+/* ----------------------------
+      curriculum image
+  ------------------------------- */
+let image = document.getElementById("imgGallery");
+let images = [
+  "../images/gallery/gallery-1.webp",
+  "../images/gallery/gallery-2.webp",
+  "../images/gallery/gallery-3.webp",
+  "../images/gallery/gallery-4.webp",
+  "../images/gallery/gallery-5.webp",
+  "../images/gallery/gallery-6.webp",
+  "../images/gallery/gallery-7.webp",
+  "../images/gallery/gallery-8.webp",
+  "../images/gallery/gallery-9.webp",
+  "../images/gallery/gallery-10.webp",
+];
+setInterval(function () {
+  let random = Math.floor(Math.random() * 10);
+  image.src = images[random];
+}, 1000);
