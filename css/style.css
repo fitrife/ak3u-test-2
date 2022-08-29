@@ -6,6 +6,7 @@
   --secondary-color: #fff07a;
   --tertiary-color: #28abb9;
   --quartenary-color: #3b8755;
+  --shadow: 0 0 10px hsla(0, 0%, 0%, 0.08);
 }
 /* ------------------------------
  01. =whatsapp
@@ -240,6 +241,14 @@ a.close-chat {
 /* ----------------------------
  end page loader
  ------------------------------ */
+
+/* box */
+.box {
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  padding: 30px;
+}
 
 .min-w-auto {
   min-width: auto !important;
@@ -1922,7 +1931,6 @@ a.close-chat {
 }
 
 .list-group-borderless .list-group-item {
-  border: none !important;
   padding: 0.425rem 0;
 }
 .list-group-borderless a.list-group-item:hover {
@@ -6283,6 +6291,32 @@ body {
   margin-bottom: 28vh;
   z-index: auto;
 }
+.city .row {
+  background-color: #e1f6fb;
+}
+.city .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+  /* left: 15%; */
+  top: 0;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #33aaf4;
+  transition: all 0.5s ease;
+  z-index: 0;
+  opacity: 1;
+}
+.city .icon i {
+  color: var(--main-color);
+  width: 60px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
 .schedule .nav-tabs {
   text-align: center;
   margin: auto;
@@ -6352,6 +6386,10 @@ body {
 .benefit .list-group {
   --bs-list-group-bg: none !important;
 }
+.benefit .list-group .list-group-item {
+  border-top-width: 1;
+  border-radius: 20px;
+}
 .pricing-section .box {
   background-color: #e1f6fb;
   border-radius: 5px;
@@ -6371,6 +6409,9 @@ body {
 .pricing-section h3 {
   font-size: 15px;
   font-weight: 500;
+}
+.pricing-section .list-group .list-group-item {
+  border: none;
 }
 .pricing-section .item .nodiscount {
   text-decoration: line-through;
@@ -6486,4 +6527,7 @@ footer .nav-link {
 }
 
 @media (min-width: 1400px) {
+  /* .city .icon {
+    left: 40%;
+  } */
 }
