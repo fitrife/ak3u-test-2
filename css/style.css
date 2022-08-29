@@ -6259,6 +6259,7 @@ body {
 }
 .subtitle {
   font-family: "DM Serif Display", sans-serif !important;
+  font-size: 25px;
 }
 .navbar-expand-xl .navbar-brand {
   padding-top: 15px;
@@ -6291,104 +6292,45 @@ body {
   margin-bottom: 28vh;
   z-index: auto;
 }
-.city .row {
+.bonus .row {
   background-color: #e1f6fb;
 }
-.city .icon {
+.bonus-items .icon {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   margin-top: 20px;
-  /* left: 15%; */
   top: 0;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: #33aaf4;
   transition: all 0.5s ease;
   z-index: 0;
   opacity: 1;
 }
-.city .icon i {
+.bonus-items .icon i {
   color: var(--main-color);
-  width: 60px;
   margin: auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 26px;
 }
-.schedule .nav-tabs {
-  text-align: center;
-  margin: auto;
-  display: block;
-  border-bottom: 0;
-  margin-bottom: 30px;
+.snk {
+  font-size: 12px;
+  font-style: italic;
 }
-
-.schedule .nav-tabs li {
-  display: inline-block;
-  margin-bottom: 0;
+.schedule h3 {
+  font-size: 23px;
+  font-weight: bolder;
 }
-
-.schedule .tab-pane {
-  transition: ease-in-out 0.2s;
-}
-
-.schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  transition: background-color ease-in-out 0.3s;
-}
-
-.schedule .schedule-item:hover {
-  background-color: #fff;
-}
-
-.schedule .schedule-item time {
-  padding-bottom: 5px;
-  display: inline-block;
-}
-.schedule .schedule-item .speaker {
-  width: 60px;
-  height: 60px;
-  overflow: hidden;
-  border-radius: 50%;
-  float: left;
-  margin: 0 10px 10px 0;
-}
-.schedule .schedule-item .speaker img {
-  height: 100%;
-  transform: translateX(-50%);
-  margin-left: 50%;
-  transition: all ease-in-out 0.3s;
-}
-.schedule .schedule-item h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-.schedule .schedule-item h4 span {
-  color: #19328e;
-  font-weight: normal;
-  font-size: 16px;
-}
-.schedule .schedule-item p {
-  color: #152b79;
-  margin-bottom: 0;
-}
-.schedule .schedule-item .location {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .benefit .list-group {
   --bs-list-group-bg: none !important;
 }
 .benefit .list-group .list-group-item {
   border-top-width: 1;
-  border-radius: 20px;
+  border-color: #33aaf4;
+  border-radius: 30px;
 }
 .pricing-section .box {
   background-color: #e1f6fb;
@@ -6527,4 +6469,7 @@ footer .nav-link {
 }
 
 @media (min-width: 1400px) {
+  /* .city .icon {
+    left: 40%;
+  } */
 }
