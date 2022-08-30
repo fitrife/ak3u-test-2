@@ -4018,7 +4018,12 @@ small,
 .text-skype:hover {
   color: #11aedb;
 }
-
+.form-group #basic-addon1 {
+  border-radius: 5px 0 0 5px;
+}
+.form-group #phone {
+  border-radius: 0 5px 5px 0;
+}
 .form-check .form-check-input,
 .form-check .form-check-label {
   cursor: pointer;
