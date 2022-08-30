@@ -6232,7 +6232,7 @@ html[dir="rtl"] .choices__input {
 /* Banner Section */
 body {
   font-family: "DM Sans", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   overflow-x: hidden;
   z-index: 0;
   position: relative;
@@ -6295,6 +6295,14 @@ body {
 .bonus .row {
   background-color: #e1f6fb;
 }
+.bonus-items .card {
+  border: none;
+  border-radius: 15px;
+  height: 95%;
+}
+.bonus-items .card .card-title {
+  font-weight: 500;
+}
 .bonus-items .icon {
   display: flex;
   justify-content: center;
@@ -6305,7 +6313,7 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #33aaf4;
+  /* background-color: #33aaf4; */
   transition: all 0.5s ease;
   z-index: 0;
   opacity: 1;
@@ -6469,7 +6477,7 @@ footer .nav-link {
 }
 
 @media (min-width: 1400px) {
-  /* .city .icon {
-    left: 40%;
-  } */
+  .benefit img {
+    width: 800px;
+  }
 }
