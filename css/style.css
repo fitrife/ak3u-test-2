@@ -6339,6 +6339,7 @@ body {
   border-top-width: 1;
   border-color: #33aaf4;
   border-radius: 30px;
+  font-size: 15px;
 }
 .pricing-section .box {
   background-color: #e1f6fb;
@@ -6362,6 +6363,7 @@ body {
 }
 .pricing-section .list-group .list-group-item {
   border: none;
+  font-size: 15px;
 }
 .pricing-section .item .nodiscount {
   text-decoration: line-through;
